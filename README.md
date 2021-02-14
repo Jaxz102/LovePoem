@@ -1,3 +1,7 @@
+# CreateMyLovePoem.Online
+### MLH 2021 Season - Hackthrob
+![alt text](https://github.com/Jaxz102/LovePoem/blob/master/logo.jpg?raw=true)
+
 ## Inspiration
 We were inspired by our non-existent ability to write love poems
 
