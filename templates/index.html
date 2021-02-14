@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Love Poem</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+        <link href="static/style.css" style="max-width:25%" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap" rel="stylesheet">
+
+        <link href="https://fonts.googleapis.com/css2?family=Lovers+Quarrel&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Stalemate&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Charmonman&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Miss+Fajardose&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Romanesco&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Old+Standard+TT:ital@1&display=swap" rel="stylesheet">
+
+    </head>
+    <body class="text-white">
+        
+        <div class="mt-4">
+            
+            <img src="static/logo.png" style="max-width: 30%; display: block;" class="m-auto" alt="logo">
+            <!--<h2 class="text-center mt-3">Type a word for the theme of your poem</h2>-->
+            <div class="w-50 m-auto mt-4">
+                <div class="input-group input-group-lg">
+                    <!--<input id="keyword" type="text" class="form-control text-center" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg" placeholder="Enter your Keyword">-->
+
+                    <form class="input-group mb-3 mt-3" action="/" method="post" name="name">
+                        <label class="input-group-text" for="inputGroupSelect01">Number of Lines</label>
+                        <select class="form-select" id="inputGroupSelect01" type="text" name="content">
+                          <option value="3">3 Lines</option>
+                          <option value="4">4 Lines </option>
+                          <option value="5">5 Lines </option>
+                          <option value="6">6 Lines </option>
+                          <option value="7">7 Lines </option>
+                          <option value="8">8 Lines </option>
+                          <option value="9">9 Lines </option>
+                          <option value="10">10 Lines </option>
+                        </select>
+                        <button type="submit" class="generate m-3 btn btn-lg btn-danger text-center mx-auto w-100">Generate</button>
+                    </form>
+                </div>
+                
+                <h2 id="poem" style="font-family: 'Old Standard TT';" class="text-center text-dark fs-1">{{ data }}</h2>
+            </div>
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+        <script src="client.js"></script>
+    </body>
+</html>
