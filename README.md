@@ -32,3 +32,5 @@ Make poems that make a bit more sense (better cohesion)
 
 ## References
 Source code for backend poem generator: [Making a Markov Chain Poem Generator in Python](https://blog.upperlinecode.com/making-a-markov-chain-poem-generator-in-python-4903d0586957)
+
+Devpost Link: https://devpost.com/software/createmylovepoem-online#updates
